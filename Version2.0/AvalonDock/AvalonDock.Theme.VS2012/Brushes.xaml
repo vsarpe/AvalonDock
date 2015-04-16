@@ -103,14 +103,15 @@
     </LinearGradientBrush>
 
 
-    <LinearGradientBrush x:Key="AvalonDock_ThemeVS2012_BaseColor16"
+	<LinearGradientBrush x:Key="AvalonDock_ThemeVS2012_BaseColor16"
                          StartPoint="0,0"
                          EndPoint="0,1">
-        <GradientStop Color="#4D6082" Offset="0" />
-        <GradientStop Color="#3D5277" Offset="1" />
-    </LinearGradientBrush>
+		<GradientStop Color="#4D6082" Offset="0" />
+		<GradientStop Color="#3D5277" Offset="1" />
+	</LinearGradientBrush>
 
-    <!--<SolidColorBrush x:Key="AvalonDock_ThemeVS2012_BaseColor17" 
+
+	<!--<SolidColorBrush x:Key="AvalonDock_ThemeVS2012_BaseColor17" 
         Color="White"/>
 
     <SolidColorBrush x:Key="AvalonDock_ThemeVS2012_BaseColor18" 

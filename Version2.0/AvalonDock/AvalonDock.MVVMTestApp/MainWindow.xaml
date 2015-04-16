@@ -18,11 +18,9 @@
         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         xmlns:avalonDock="http://schemas.xceed.com/wpf/xaml/avalondock"
-        xmlns:shell="clr-namespace:Microsoft.Windows.Shell;assembly=AvalonDock"
         xmlns:local="clr-namespace:AvalonDock.MVVMTestApp"
         xmlns:sys="clr-namespace:System;assembly=mscorlib"
         xmlns:sysWindows="clr-namespace:System.Windows;assembly=PresentationCore"
-        xmlns:Themes="clr-namespace:AvalonDock.Themes;assembly=AvalonDock.Themes.VS2012" x:Name="mainWindow"
         Title="MainWindow" Height="350" Width="525">
     <Window.Resources>
         <local:ActiveDocumentConverter x:Key="ActiveDocumentConverter"/>
@@ -58,10 +56,10 @@
                                    DocumentsSource="{Binding Files}"
                                    ActiveContent="{Binding ActiveDocument, Mode=TwoWay, Converter={StaticResource ActiveDocumentConverter}}"
                                    Grid.Row="1">
-            <avalonDock:DockingManager.Theme>
-                <Themes:VS2012DarkTheme/>
-            </avalonDock:DockingManager.Theme>
-            <avalonDock:DockingManager.LayoutItemTemplateSelector>
+			<avalonDock:DockingManager.Theme>
+				<avalonDock:VS2012LightTheme/>
+			</avalonDock:DockingManager.Theme>
+			<avalonDock:DockingManager.LayoutItemTemplateSelector>
                 <local:PanesTemplateSelector>
                     <local:PanesTemplateSelector.FileViewTemplate>
                         <DataTemplate>

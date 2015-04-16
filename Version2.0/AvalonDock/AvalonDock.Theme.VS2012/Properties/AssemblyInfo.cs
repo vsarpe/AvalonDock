@@ -30,11 +30,11 @@ using System.Windows.Markup;
 // General Information about an assembly is controlled through the following 
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("AvalonDock.Theme.VS2010")]
+[assembly: AssemblyTitle("Xceed.Wpf.AvalonDock.Theme.VS2012")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("AvalonDock.Theme.VS2010")]
+[assembly: AssemblyProduct("Xceed.Wpf.AvalonDock.Theme.VS2012")]
 [assembly: AssemblyCopyright("Copyright © 2007-2012, Adolfo Marinucci")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
@@ -77,4 +77,4 @@ using System.Windows.Markup;
 [assembly: AssemblyVersion("2.0.1771")]
 [assembly: AssemblyFileVersion("2.0.1771")]
 
-[assembly: XmlnsDefinition("http://avalondock.codeplex.com", "AvalonDock.Themes")]
+[assembly: XmlnsDefinition("http://schemas.xceed.com/wpf/xaml/avalondock", "Xceed.Wpf.AvalonDock.Themes")]

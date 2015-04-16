@@ -8,8 +8,8 @@
     <ProjectGuid>{4E9EACEA-4BA9-493D-A0B6-B78318D9C08F}</ProjectGuid>
     <OutputType>library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>AvalonDock.Themes</RootNamespace>
-    <AssemblyName>AvalonDock.Themes.VS2012</AssemblyName>
+    <RootNamespace>Xceed.Wpf.AvalonDock.Themes</RootNamespace>
+    <AssemblyName>Xceed.Wpf.AvalonDock.Themes.VS2012</AssemblyName>
     <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
     <TargetFrameworkProfile>Client</TargetFrameworkProfile>
     <FileAlignment>512</FileAlignment>
@@ -50,7 +50,34 @@
     <Reference Include="PresentationCore" />
     <Reference Include="PresentationFramework" />
     <Reference Include="Xceed.Wpf.AvalonDock">
-      <HintPath>..\..\..\..\Wide\Libs\Xceed.Wpf.AvalonDock.dll</HintPath>
+      <HintPath>..\packages\Xceed.Wpf.AvalonDock.2.6.15111.10510\lib\net40\Xceed.Wpf.AvalonDock.dll</HintPath>
+    </Reference>
+    <Reference Include="Xceed.Wpf.AvalonDock.Themes.Aero">
+      <HintPath>..\packages\Xceed.Wpf.AvalonDock.Themes.Aero.2.6.15111.10510\lib\net40\Xceed.Wpf.AvalonDock.Themes.Aero.dll</HintPath>
+    </Reference>
+    <Reference Include="Xceed.Wpf.AvalonDock.Themes.Metro">
+      <HintPath>..\packages\Xceed.Wpf.AvalonDock.Themes.Metro.2.6.15111.10510\lib\net40\Xceed.Wpf.AvalonDock.Themes.Metro.dll</HintPath>
+    </Reference>
+    <Reference Include="Xceed.Wpf.AvalonDock.Themes.MetroAccent">
+      <HintPath>..\packages\Xceed.Wpf.AvalonDock.Themes.MetroAccent.2.6.15111.10510\lib\net40\Xceed.Wpf.AvalonDock.Themes.MetroAccent.dll</HintPath>
+    </Reference>
+    <Reference Include="Xceed.Wpf.AvalonDock.Themes.Office2007">
+      <HintPath>..\packages\Xceed.Wpf.AvalonDock.Themes.Office2007.2.6.15111.10510\lib\net40\Xceed.Wpf.AvalonDock.Themes.Office2007.dll</HintPath>
+    </Reference>
+    <Reference Include="Xceed.Wpf.AvalonDock.Themes.VS2010">
+      <HintPath>..\packages\Xceed.Wpf.AvalonDock.Themes.VS2010.2.6.15111.10510\lib\net40\Xceed.Wpf.AvalonDock.Themes.VS2010.dll</HintPath>
+    </Reference>
+    <Reference Include="Xceed.Wpf.Themes">
+      <HintPath>..\packages\Xceed.Wpf.Themes.2.6.15111.10510\lib\net40\Xceed.Wpf.Themes.dll</HintPath>
+    </Reference>
+    <Reference Include="Xceed.Wpf.Themes.Metro">
+      <HintPath>..\packages\Xceed.Wpf.Themes.Metro.2.6.15111.10510\lib\net40\Xceed.Wpf.Themes.Metro.dll</HintPath>
+    </Reference>
+    <Reference Include="Xceed.Wpf.Themes.Office2007">
+      <HintPath>..\packages\Xceed.Wpf.Themes.Office2007.2.6.15111.10510\lib\net40\Xceed.Wpf.Themes.Office2007.dll</HintPath>
+    </Reference>
+    <Reference Include="Xceed.Wpf.Toolkit">
+      <HintPath>..\packages\Xceed.Wpf.Toolkit.2.6.15111.10510\lib\net40\Xceed.Wpf.Toolkit.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>
@@ -95,6 +122,7 @@
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
     </EmbeddedResource>
+    <None Include="packages.config" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>

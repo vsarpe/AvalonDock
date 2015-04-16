@@ -24,16 +24,15 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
-using Xceed.Wpf.AvalonDock.Themes;
 
-namespace AvalonDock.Themes
+namespace Xceed.Wpf.AvalonDock.Themes
 {
     public class VS2012LightTheme : Theme
     {
         public override Uri GetResourceUri()
         {
             return new Uri(
-                "/AvalonDock.Themes.VS2012;component/LightTheme.xaml", 
+				"/Xceed.Wpf.AvalonDock.Themes.VS2012;component/LightTheme.xaml", 
                 UriKind.Relative);  
         }
     }
